@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+ 
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/* Headings */
+.big-heading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section{
+    background-color: white;
+}
+
+.coloured-section{
+    background-color: #ff4c68;
+}
+
+/* Navigation bar section */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+/* Title Section */
+ 
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.title-img{
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+    width: 60%;
+    margin-left: 15%;
+    position: absolute;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Features section */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.feature-head{
+    font-size: 1.5rem;
+}
+
+.feature-body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #8f8f8f;
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+}
+
+.feature-icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+.feature-container{
+    margin: 5% auto;
+}
+
+#press{
+    background-color:   #ffc8d1;
+    padding: 2.5%;
+    margin: auto;
+}
+
+.press-logo{
+    width: 12%;
+    margin: 20px 20px 15px; 
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Pricing Section */
+
+.plan{
+    padding: 40px 20px 40px 0;
+}
+
+.plan-desc{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CTA section */
+
+/* Footer section */
+
+#footer .container-fluid{
+    padding: 5% 15%;
+}
+
+.footer-icon{
+    margin: 30px 15px;
+    font-weight: 900;
+}
+
+/*************************** Media Query for Mobile View *****************************/
+
+@media ( max-width: 1028px ){
+    .title-img{
+        position: static;
+        margin: 5% 0 0 0;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
